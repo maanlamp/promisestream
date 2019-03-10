@@ -23,11 +23,16 @@ An example:
 //Imagine the functions toJson, cleanJSON and
 //renderToDocument exist, and do what their
 //name says.
-const stream = await api.createStream("endpoint/query");
+const stream = new PromiseStream([
+	fetch("url1"),
+	fetch("url2"),
+	fetch("url3")
+]);
+
 stream
   .pipe(toJSON)
-  .pipe(cleanJSON)
-  .pipe(renderToDocument);
+	.pipe(renderToDocument)
+	.catch(handleError);
 ```
 
 ##### <code>PromiseStream.pipeOrdered(*function:* through) -> PromiseStream</code>
