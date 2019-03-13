@@ -1,0 +1,19 @@
+{
+  "name": "promisestream",
+  "version": "1.0.0",
+  "description": "A way of streaming promise resolvements in JavaScript",
+  "main": "src/PromiseStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maanlamp/promisestream.git"
+  },
+  "author": "maanlamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maanlamp/promisestream/issues"
+  },
+  "homepage": "https://github.com/maanlamp/promisestream#readme"
+}
