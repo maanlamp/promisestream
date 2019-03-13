@@ -2,7 +2,7 @@
   "name": "promisestream",
   "version": "1.0.0",
   "description": "A way of streaming promise resolvements in JavaScript",
-  "main": "src/PromiseStream.js",
+  "main": "dist/PromiseStream.js",
   "scripts": {
     "build": "babel src -d dist"
   },
